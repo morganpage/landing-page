@@ -76,7 +76,7 @@ export const fluidImage = graphql`
 
 export const pageQuery = graphql`
   query {
-    imageMorgan: file(relativePath: { eq: "morgan-radial.png" }) {
+    imageMorgan: file(relativePath: { eq: "morgan-square.png" }) {
       ...fluidImage
     }
     imageMorganBackground: file(relativePath: { eq: "desk.png" }) {
